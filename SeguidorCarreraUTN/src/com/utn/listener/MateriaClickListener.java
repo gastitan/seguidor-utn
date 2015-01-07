@@ -24,7 +24,7 @@ public class MateriaClickListener implements OnItemClickListener {
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) 
 	{
 		MateriaVO  itemSelected    = (MateriaVO) listView.getItemAtPosition(position);
-		if(itemSelected.getNombre().contains("AÃ‘O"))
+		if(itemSelected.getNombre().contains("AÑO"))
 			return;
 		if(!itemSelected.isHabilitada())
 			return;

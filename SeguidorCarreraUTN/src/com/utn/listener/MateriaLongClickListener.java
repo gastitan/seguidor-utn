@@ -33,7 +33,7 @@ public class MateriaLongClickListener implements OnItemLongClickListener
     public boolean onItemLongClick(AdapterView<?> parent, View v, final int position, long id)
     {
     	MateriaVO  itemSelected    = (MateriaVO) listView.getItemAtPosition(position);
-        if(itemSelected.getNombre().contains("AÃ‘O"))
+        if(itemSelected.getNombre().contains("AÑO"))
         	return false;
         if(!itemSelected.isHabilitada())
 			return false;
@@ -45,15 +45,15 @@ public class MateriaLongClickListener implements OnItemLongClickListener
         	public void onClick(DialogInterface dialog, int which) 
         	{
         		MateriaVO materiaSelected = materiaAdapter.getItem(position);
-        		//int menuItemIndex = item.getItemId();
+
         		String[] menuItems = activity.getResources().getStringArray(R.array.estados_array);
-        	  	String menuItemName = menuItems[which];
-//        	  	String listItemName = Countries[info.position];
-        	  	//int pos = info.position;
-        	  	materiaSelected.setEstado(menuItemName);
+        	  	String nuevoEstado = menuItems[which];
+
+        	  	String viejoEstado = materiaSelected.getEstado();
+        	  	materiaSelected.setEstado(nuevoEstado);
         	  	materiaAdapter.notifyDataSetChanged();
         	
-        	  	Correlatividades.getInstance().habilitarMaterias();
+        	  	Correlatividades.getInstance().habilitarMaterias(materiaAdapter, materiaSelected, nuevoEstado, viejoEstado);
         	  	
         	  	FileUtils.actualizarArchivo(activity, materiaAdapter);
         	  	dialog.dismiss();

@@ -6,9 +6,9 @@ import java.util.List;
 public class Constantes 
 {
 	public static final Integer BLOQUEADA = 0;
-	public static final Integer SIN_CURSAR = 1;
-	public static final Integer CURSADA = 2;
-	public static final Integer APROBADA = 3;
+	public static final String SIN_CURSAR = "SIN CURSAR";
+	public static final String CURSADA = "CURSADA";
+	public static final String APROBADA = "APROBADA";
 	
 	@SuppressWarnings("serial")
 	public static final List<Integer> materiasHabilitadas = new ArrayList<Integer>(){{

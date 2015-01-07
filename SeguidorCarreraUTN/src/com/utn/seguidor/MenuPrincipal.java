@@ -34,7 +34,7 @@ public class MenuPrincipal extends Activity {
         materiaAdapter = new MateriaAdapter(this, R.layout.vista_materia);
         listView.setAdapter(materiaAdapter);
         
-        List<MateriaVO> materias = new ArrayList<>();
+        List<MateriaVO> materias = new ArrayList<MateriaVO>();
         if(esPrimeraVez())
         {
         	materias = getMateriasBase();

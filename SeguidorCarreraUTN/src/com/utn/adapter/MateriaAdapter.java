@@ -30,7 +30,7 @@ public class MateriaAdapter extends ArrayAdapter<MateriaVO>
 		
 		viewHolder.titleView.setText(entry.getNombre());
 		
-		if(entry.getNombre().contains("AÃ‘O"))
+		if(entry.getNombre().contains("AÑO"))
 		{
 			viewHolder.subTitleView.setVisibility(TextView.INVISIBLE);
 			viewHolder.titleView.cancelLongPress();

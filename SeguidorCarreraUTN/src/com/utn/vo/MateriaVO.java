@@ -1,6 +1,7 @@
 package com.utn.vo;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class MateriaVO implements Serializable
 {
@@ -10,6 +11,10 @@ public class MateriaVO implements Serializable
 	private String nombre;
 	private String estado;
 	private boolean habilitada;
+	private List<Integer> materiasPorCursar;
+	private List<Integer> materiasPorAprobar;
+	private List<Integer> habilitaParaCursar;
+	private List<Integer> habilitaParaAprobar;
 
 	public Integer getId() {
 		return id;
@@ -35,10 +40,43 @@ public class MateriaVO implements Serializable
 	public void setHabilitada(boolean habilitada) {
 		this.habilitada = habilitada;
 	}
+	public List<Integer> getMateriasPorCursar() {
+		return materiasPorCursar;
+	}
+	public void setMateriasPorCursar(List<Integer> necesitaParaCursar) {
+		this.materiasPorCursar = necesitaParaCursar;
+	}
+	public List<Integer> getMateriasPorAprobar() {
+		return materiasPorAprobar;
+	}
+	public void setMateriasPorAprobar(List<Integer> necesitaParaAprobar) {
+		this.materiasPorAprobar = necesitaParaAprobar;
+	}
+	public List<Integer> getHabilitaParaCursar() {
+		return habilitaParaCursar;
+	}
+	public void setHabilitaParaCursar(List<Integer> habilitaParaCursar) {
+		this.habilitaParaCursar = habilitaParaCursar;
+	}
+	public List<Integer> getHabilitaParaAprobar() {
+		return habilitaParaAprobar;
+	}
+	public void setHabilitaParaAprobar(List<Integer> habilitaParaAprobar) {
+		this.habilitaParaAprobar = habilitaParaAprobar;
+	}
+	
 	@Override
 	public String toString() {
 		return (id!=null)?id + "." + nombre:nombre;
 	}
 	
+	public boolean sePuedeCursar()
+	{
+		return materiasPorCursar.size() == 0;
+	}
 	
+	public boolean sePuedeFinal()
+	{
+		return materiasPorAprobar.size() == 0;
+	}
 }

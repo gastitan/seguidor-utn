@@ -1,18 +1,18 @@
-PRIMER AÃ‘O
-1-Analisis Matematico I
-2-Algebra y Geometria Analitica 
-3-Matematica Discreta 
-4-Sistemas y Organizaciones (I) 
-5-Algoritmos y estructura de Datos 
-6-Arquitectura de Computadoras 
-9-Quimica 
-22-Ingenieria y Sociedad
-SEGUNDO AÃ‘O
-7-Fisica I
-10-Analisis Matematico II
-16-Sistemas de Representacion
-12-Analisis de Sistemas (I)
-13-Sintaxis y Semantica de los Lenguajes
-14-Paradigmas de programacion
-8-Ingles 1
-17-Probabilidad y Estadistica
+PRIMER AÑO
+1-Analisis Matematico I-10,17,11
+2-Algebra y Geometria Analitica-10,17
+3-Matematica Discreta-13,14,15
+4-Sistemas y Organizaciones (I)-12 
+5-Algoritmos y estructura de Datos-12,13,14,15
+6-Arquitectura de Computadoras-15,19
+9-Quimica-30
+22-Ingenieria y Sociedad-31
+SEGUNDO AÑO
+7-Fisica I-
+10-Analisis Matematico II-
+16-Sistemas de Representacion-
+12-Analisis de Sistemas (I)-
+13-Sintaxis y Semantica de los Lenguajes-
+14-Paradigmas de programacion-
+8-Ingles 1-
+17-Probabilidad y Estadistica-

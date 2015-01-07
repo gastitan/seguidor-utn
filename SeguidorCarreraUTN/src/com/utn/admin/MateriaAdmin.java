@@ -17,7 +17,7 @@ public class MateriaAdmin
 	
 	public static MateriaVO crearMateria(String materiaAux)
 	{
-		if(materiaAux.contains("AÃ‘O"))
+		if(materiaAux.contains("AÑO"))
 		{
 			MateriaVO m = new MateriaVO();
 			m.setId(null);
@@ -37,6 +37,21 @@ public class MateriaAdmin
 		else
 			m.setHabilitada(false);
 		
+		m.setHabilitaParaCursar(getLista(arrayMateria[2]));
+		
 		return m;
+	}
+
+	private static List<Integer> getLista(String string) 
+	{
+		String[] arrayMaterias = string.split(",");
+		List<Integer> lista = new ArrayList<Integer>();
+		
+		for(int x=0; x<arrayMaterias.length; x++)
+		{
+			Integer i = Integer.valueOf(arrayMaterias[x]);
+			lista.add(i);
+		}
+		return lista;
 	}
 }
