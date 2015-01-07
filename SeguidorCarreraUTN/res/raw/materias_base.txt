@@ -1,0 +1,18 @@
+PRIMER AÑO
+1-Analisis Matematico I
+2-Algebra y Geometria Analitica 
+3-Matematica Discreta 
+4-Sistemas y Organizaciones (I) 
+5-Algoritmos y estructura de Datos 
+6-Arquitectura de Computadoras 
+9-Quimica 
+22-Ingenieria y Sociedad
+SEGUNDO AÑO
+7-Fisica I
+10-Analisis Matematico II
+16-Sistemas de Representacion
+12-Analisis de Sistemas (I)
+13-Sintaxis y Semantica de los Lenguajes
+14-Paradigmas de programacion
+8-Ingles 1
+17-Probabilidad y Estadistica

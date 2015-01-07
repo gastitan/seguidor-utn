@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seguidor Carrera UTN</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="algebra">Algebra y Geometria Analitica</string>
+    
+    <string-array name="estados_array">
+        <item>SIN CURSAR</item>
+        <item>CURSADA</item>
+        <item>APROBADA</item>
+    </string-array>
+    
+</resources>
