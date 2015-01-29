@@ -2,4 +2,5 @@
 <resources>
     <color name="bloqueada">#FF9E9E</color>
 	<color name="normal">#BFBAFC</color>
+	<color name="cursada">#FF00FF</color>
 </resources>

@@ -47,37 +47,40 @@ public class Correlatividades
 	public void habilitarMaterias(MateriaAdapter materiaAdapter, MateriaVO materiaCambiada, String nuevoEstado, String viejoEstado) 
 	{
 		List<Integer> habilitaParaCursar = materiaCambiada.getHabilitaParaCursar();
+		List<Integer> habilitaParaAprobar = materiaCambiada.getHabilitaParaAprobar();
 		if(nuevoEstado.equals(Constantes.CURSADA) && viejoEstado.equals(Constantes.SIN_CURSAR))
 		{
 			removerMateriaPorCursar(materiaAdapter, habilitaParaCursar, materiaCambiada.getId());
 		}
 		else if(nuevoEstado.equals(Constantes.CURSADA) && viejoEstado.equals(Constantes.APROBADA))
 		{
-			//Agregar materia por aprobar
+			agregarMateriaPorAprobar(materiaAdapter, habilitaParaCursar, materiaCambiada.getId());
 		}
 		else if(nuevoEstado.equals(Constantes.SIN_CURSAR) && viejoEstado.equals(Constantes.CURSADA))
 		{
-			//Agregar materia por cursar
+			agregarMateriaPorCursar(materiaAdapter, habilitaParaCursar, materiaCambiada.getId());
 		}
 		else if(nuevoEstado.equals(Constantes.SIN_CURSAR) && viejoEstado.equals(Constantes.APROBADA))
 		{
-			//Agregar materia por cursar
-			//Agregar materia por aprobar
+			agregarMateriaPorCursar(materiaAdapter, habilitaParaCursar, materiaCambiada.getId());
+			agregarMateriaPorAprobar(materiaAdapter, habilitaParaAprobar, materiaCambiada.getId());
 		}
 		else if(nuevoEstado.equals(Constantes.APROBADA) && viejoEstado.equals(Constantes.CURSADA))
 		{
-			//Sacar materia por aprobar
+			removerMateriaPorAprobar(materiaAdapter, habilitaParaAprobar, materiaCambiada.getId());
 		}
 		else if(nuevoEstado.equals(Constantes.APROBADA) && viejoEstado.equals(Constantes.SIN_CURSAR))
 		{
 			removerMateriaPorCursar(materiaAdapter, habilitaParaCursar, materiaCambiada.getId());
-			//Sacar materia por aprobar
+			removerMateriaPorAprobar(materiaAdapter, habilitaParaAprobar, materiaCambiada.getId());
 		}
-		
 	}
 	
 	private void removerMateriaPorCursar(MateriaAdapter materiaAdapter, List<Integer> lista, Integer materiaId)
 	{
+		if(lista.size()==1 && lista.get(0)==0)
+			return;
+		
 		for(Integer i : lista)
 		{
 			MateriaVO materia = getMateriaById(materiaAdapter, i);
@@ -94,6 +97,9 @@ public class Correlatividades
 	}
 	private void removerMateriaPorAprobar(MateriaAdapter materiaAdapter, List<Integer> lista, Integer materiaId)
 	{
+		if(lista.size()==1 && lista.get(0)==0)
+			return;
+		
 		for(Integer i : lista)
 		{
 			MateriaVO materia = getMateriaById(materiaAdapter, i);

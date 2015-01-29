@@ -12,6 +12,7 @@ import android.widget.ListView;
 
 import com.utn.adapter.MateriaAdapter;
 import com.utn.seguidor.R;
+import com.utn.utils.Constantes;
 import com.utn.utils.Correlatividades;
 import com.utn.utils.FileUtils;
 import com.utn.vo.MateriaVO;
@@ -33,7 +34,7 @@ public class MateriaLongClickListener implements OnItemLongClickListener
     public boolean onItemLongClick(AdapterView<?> parent, View v, final int position, long id)
     {
     	MateriaVO  itemSelected    = (MateriaVO) listView.getItemAtPosition(position);
-        if(itemSelected.getNombre().contains("AÑO"))
+        if(itemSelected.getNombre().contains(Constantes.ANIO))
         	return false;
         if(!itemSelected.isHabilitada())
 			return false;
@@ -51,10 +52,10 @@ public class MateriaLongClickListener implements OnItemLongClickListener
 
         	  	String viejoEstado = materiaSelected.getEstado();
         	  	materiaSelected.setEstado(nuevoEstado);
-        	  	materiaAdapter.notifyDataSetChanged();
         	
         	  	Correlatividades.getInstance().habilitarMaterias(materiaAdapter, materiaSelected, nuevoEstado, viejoEstado);
         	  	
+        	  	materiaAdapter.notifyDataSetChanged();
         	  	FileUtils.actualizarArchivo(activity, materiaAdapter);
         	  	dialog.dismiss();
         	}

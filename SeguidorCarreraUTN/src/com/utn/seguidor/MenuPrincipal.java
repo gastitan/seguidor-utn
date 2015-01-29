@@ -25,9 +25,10 @@ public class MenuPrincipal extends Activity {
 	MateriaAdapter materiaAdapter;
     
     @Override
-    protected void onCreate(Bundle savedInstanceState) 
+    protected void onCreate(Bundle savedInstanceState)
     {
-        super.onCreate(savedInstanceState);
+        eliminarArchivo();
+    	super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
         
         listView = (ListView) findViewById(R.id.listaPrincipal);
@@ -48,11 +49,17 @@ public class MenuPrincipal extends Activity {
         	materiaAdapter.add(materiaVO);
 		}
         
-        listView.setOnItemClickListener(new MateriaClickListener(this, listView));
+        listView.setOnItemClickListener(new MateriaClickListener(this, listView, materiaAdapter));
         listView.setOnItemLongClickListener(new MateriaLongClickListener(this, listView, materiaAdapter));
     }
     
-    
+    //TODO Eliminar metodo
+    private void eliminarArchivo() {
+    	File f = new File(getFilesDir()+File.separator+NOMBRE_ARCHIVO);
+		f.delete();
+	}
+
+
 
 	private boolean esPrimeraVez()
 	{

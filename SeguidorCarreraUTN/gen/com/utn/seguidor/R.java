@@ -1061,11 +1061,12 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f080002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f090005;
+        public static final int abc_search_url_text_holo=0x7f090006;
         public static final int abc_search_url_text_normal=0x7f090000;
         public static final int abc_search_url_text_pressed=0x7f090002;
         public static final int abc_search_url_text_selected=0x7f090001;
         public static final int bloqueada=0x7f090003;
+        public static final int cursada=0x7f090005;
         public static final int normal=0x7f090004;
     }
     public static final class dimen {
@@ -1299,14 +1300,15 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060027;
         public static final int action_menu_presenter=0x7f060028;
         public static final int action_mode_close_button=0x7f060035;
-        public static final int action_settings=0x7f060053;
+        public static final int action_settings=0x7f060057;
         public static final int activity_chooser_view_content=0x7f060036;
         public static final int alignBounds=0x7f060002;
         public static final int alignMargins=0x7f060003;
         public static final int always=0x7f06001d;
+        public static final int arrow=0x7f060056;
         public static final int beginning=0x7f060023;
         public static final int bottom=0x7f060005;
-        public static final int buttonClose=0x7f06004f;
+        public static final int buttonClose=0x7f060050;
         public static final int center=0x7f06000c;
         public static final int center_horizontal=0x7f06000a;
         public static final int center_vertical=0x7f060008;
@@ -1320,7 +1322,7 @@ containing a value of this type.
         public static final int dropdown=0x7f060021;
         public static final int edit_query=0x7f060041;
         public static final int end=0x7f060011;
-        public static final int estado_materia=0x7f060052;
+        public static final int estado_materia=0x7f060055;
         public static final int expand_activities_button=0x7f060037;
         public static final int expanded_menu=0x7f06003d;
         public static final int fill=0x7f06000d;
@@ -1335,14 +1337,17 @@ containing a value of this type.
         public static final int left=0x7f060006;
         public static final int listMode=0x7f060013;
         public static final int list_item=0x7f06003a;
-        public static final int listaPrincipal=0x7f060050;
+        public static final int listaPrincipal=0x7f060053;
+        public static final int lista_materias_pa=0x7f060052;
+        public static final int lista_materias_pc=0x7f060051;
+        public static final int materias_pa=0x7f06004f;
+        public static final int materias_pc=0x7f06004e;
         public static final int middle=0x7f060024;
         public static final int never=0x7f06001b;
-        public static final int nombre_materia=0x7f060051;
+        public static final int nombre_materia=0x7f060054;
         public static final int nombre_materia_desc=0x7f06004d;
         public static final int none=0x7f060022;
         public static final int normal=0x7f060012;
-        public static final int posicionMateria=0x7f06004e;
         public static final int progress_circular=0x7f060029;
         public static final int progress_horizontal=0x7f06002a;
         public static final int radio=0x7f060040;
@@ -1476,10 +1481,11 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
-        public static final int action_settings=0x7f0b000f;
-        public static final int algebra=0x7f0b0010;
+        public static final int action_settings=0x7f0b000e;
         public static final int app_name=0x7f0b000d;
-        public static final int hello_world=0x7f0b000e;
+        public static final int cerrar=0x7f0b0011;
+        public static final int materias_pa=0x7f0b0010;
+        public static final int materias_pc=0x7f0b000f;
     }
     public static final class style {
         /** 

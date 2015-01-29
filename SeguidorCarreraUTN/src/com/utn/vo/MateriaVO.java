@@ -10,7 +10,7 @@ public class MateriaVO implements Serializable
 	private Integer id;
 	private String nombre;
 	private String estado;
-	private boolean habilitada;
+//	private boolean habilitada;
 	private List<Integer> materiasPorCursar;
 	private List<Integer> materiasPorAprobar;
 	private List<Integer> habilitaParaCursar;
@@ -35,10 +35,7 @@ public class MateriaVO implements Serializable
 		this.estado = estado;
 	}
 	public boolean isHabilitada() {
-		return habilitada;
-	}
-	public void setHabilitada(boolean habilitada) {
-		this.habilitada = habilitada;
+		return (materiasPorCursar.size()==0 && materiasPorAprobar.size()==0);
 	}
 	public List<Integer> getMateriasPorCursar() {
 		return materiasPorCursar;

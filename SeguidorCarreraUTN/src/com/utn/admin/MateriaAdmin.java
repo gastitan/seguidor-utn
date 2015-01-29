@@ -17,13 +17,12 @@ public class MateriaAdmin
 	
 	public static MateriaVO crearMateria(String materiaAux)
 	{
-		if(materiaAux.contains("AÑO"))
+		if(materiaAux.contains(Constantes.ANIO))
 		{
 			MateriaVO m = new MateriaVO();
 			m.setId(null);
 			m.setNombre(materiaAux);
 			m.setEstado(null);
-			m.setHabilitada(true);
 			return m;
 		}
 		String[] arrayMateria = materiaAux.split("-");
@@ -32,12 +31,15 @@ public class MateriaAdmin
 		m.setId(Integer.valueOf(arrayMateria[0]));
 		m.setNombre(arrayMateria[1]);
 		m.setEstado(ESTADO_SIN_CURSAR);
-		if(Constantes.materiasHabilitadas.contains(m.getId()))
-			m.setHabilitada(true);
-		else
-			m.setHabilitada(false);
+		
+		List<Integer> materiasPorCursar = getLista(arrayMateria[4]);
+		List<Integer> materiasPorAprobar = getLista(arrayMateria[5]);
+
+		m.setMateriasPorCursar(materiasPorCursar);
+		m.setMateriasPorAprobar(materiasPorAprobar);
 		
 		m.setHabilitaParaCursar(getLista(arrayMateria[2]));
+		m.setHabilitaParaAprobar(getLista(arrayMateria[3]));
 		
 		return m;
 	}
@@ -46,6 +48,9 @@ public class MateriaAdmin
 	{
 		String[] arrayMaterias = string.split(",");
 		List<Integer> lista = new ArrayList<Integer>();
+		
+		if(arrayMaterias.length==1 && arrayMaterias[0].equals("0"))
+			return lista;
 		
 		for(int x=0; x<arrayMaterias.length; x++)
 		{

@@ -1,6 +1,7 @@
 package com.utn.adapter;
 
 import com.utn.seguidor.R;
+import com.utn.utils.Constantes;
 import com.utn.vo.MateriaVO;
 
 import android.content.Context;
@@ -26,28 +27,30 @@ public class MateriaAdapter extends ArrayAdapter<MateriaVO>
 	{
 		final View view = getWorkingView(convertView);
 		final ViewHolder viewHolder = getViewHolder(view);
-		final MateriaVO entry = getItem(position);
+		final MateriaVO materia = getItem(position);
 		
-		viewHolder.titleView.setText(entry.getNombre());
+		viewHolder.titleView.setText(materia.getNombre());
 		
-		if(entry.getNombre().contains("AÑO"))
+		if(materia.getNombre().contains(Constantes.ANIO))
 		{
 			viewHolder.subTitleView.setVisibility(TextView.INVISIBLE);
+			viewHolder.arrow.setVisibility(TextView.INVISIBLE);
 			viewHolder.titleView.cancelLongPress();
 			viewHolder.titleView.setGravity(Gravity.CENTER);
 			view.setBackgroundColor(Color.TRANSPARENT);
 			
 		}else{
-			final String formattedSubTitle = String.format("Estado: %s", entry.getEstado());
+			final String formattedSubTitle = String.format("Estado: %s", materia.getEstado());
 			viewHolder.subTitleView.setText(formattedSubTitle);
 			viewHolder.titleView.setGravity(Gravity.LEFT);
 			//viewHolder.titleView.setLongClickable(true);
 			viewHolder.subTitleView.setVisibility(TextView.VISIBLE);
 			
-			if(!entry.isHabilitada())
+			if(!materia.isHabilitada()){
 				view.setBackgroundColor(getContext().getResources().getColor(R.color.bloqueada));
-			else
+			}else{
 				view.setBackgroundColor(getContext().getResources().getColor(R.color.normal));
+			}
 		}
 		
 		return view;
@@ -82,6 +85,7 @@ public class MateriaAdapter extends ArrayAdapter<MateriaVO>
 			
 			viewHolder.titleView = (TextView) workingView.findViewById(R.id.nombre_materia);
 			viewHolder.subTitleView = (TextView) workingView.findViewById(R.id.estado_materia);
+			viewHolder.arrow = (TextView) workingView.findViewById(R.id.arrow);
 			
 			workingView.setTag(viewHolder);
 			
@@ -99,5 +103,6 @@ public class MateriaAdapter extends ArrayAdapter<MateriaVO>
 	private static class ViewHolder {
 		public TextView titleView;
 		public TextView subTitleView;
+		public TextView arrow;
 	}
 }
