@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Seguidor Carrera UTN</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name" translatable="false">Seguidor Carrera UTN</string>
+    <string name="action_settings" translatable="false">Settings</string>
     
-    <string-array name="estados_array">
+    <string-array name="estados_array" translatable="false">
         <item>SIN CURSAR</item>
         <item>CURSADA</item>
         <item>APROBADA</item>
     </string-array>
     
-    <string name="materias_pc"><u>Materias por cursar</u></string>
-    <string name="materias_pa"><u>Materias por aprobar</u></string>
+    <string name="materias_pc" translatable="false"><u>Materias por cursar</u></string>
+    <string name="materias_pa" translatable="false"><u>Materias por aprobar</u></string>
     
-    <string name="cerrar">Cerrar</string>
+    <string name="cerrar" translatable="false">Cerrar</string>
     
 </resources>

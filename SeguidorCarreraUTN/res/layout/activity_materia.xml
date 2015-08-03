@@ -58,4 +58,13 @@
   	    android:layout_alignLeft="@+id/materias_pa"
   	    android:layout_centerVertical="true" />
 
+  	<Button
+  	    android:id="@+id/buttonNotif"
+  	    style="?android:attr/buttonStyleSmall"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignBottom="@+id/buttonClose"
+  	    android:layout_alignRight="@+id/materias_pc"
+  	    android:text="Button" />
+
 </RelativeLayout>

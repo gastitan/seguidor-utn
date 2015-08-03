@@ -1,0 +1,99 @@
+<materias>
+    <materia>
+        <id>1</id>
+        <nombre>Analisis Matematico I</nombre>
+        <habilita_cursada_a_cursar>10,17,11</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>19,311,20</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>10,17,11</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>10,17,11</habilita_cursar> -->
+<!--         <habilita_aprobar>10,20,19</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia>
+        <id>2</id>
+        <nombre>Algebra y Geometria Analitica</nombre>
+        <habilita_cursada_a_cursar>10,17</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>19,311,20</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>10,17</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>10,17</habilita_cursar> -->
+<!--         <habilita_aprobar>10,20,19</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia>
+        <id>3</id>
+        <nombre>Matematica Discreta</nombre>
+        <nombre>Algebra y Geometria Analitica</nombre>
+        <habilita_cursada_a_cursar>13,14,15</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>18,21,25</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>13,14,15</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>13,14,15</habilita_cursar> -->
+<!--         <habilita_aprobar>18,21,25</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia>
+        <id>4</id>
+        <nombre>Sistemas y Organizaciones</nombre>
+        <habilita_cursada_a_cursar>12</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>18,21,23,31</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>12</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>12</habilita_cursar> -->
+<!--         <habilita_aprobar>12,18,21,23,31</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia>
+        <id>5</id>
+        <nombre>Algoritmos y estructura de Datos</nombre>
+        <habilita_cursada_a_cursar>12,13,14,15</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>18,21,23,25,31</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>12,13,14,15</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>12,13,14,15</habilita_cursar> -->
+<!--         <habilita_aprobar>12,18,21,23,31,25</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia>
+        <id>6</id>
+        <nombre>Arquitectura de Computadoras</nombre>
+        <habilita_cursada_a_cursar>15,19</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>26,311,25</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>15,19</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>15,19</habilita_cursar> -->
+<!--         <habilita_aprobar>25,26</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia>
+        <id>9</id>
+        <nombre>Quimica</nombre>
+        <habilita_cursada_a_cursar>30</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>30</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>30</habilita_cursar> -->
+<!--         <habilita_aprobar>0</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia><!-- 22-Ingenieria y Sociedad-31-0-0-0 -->
+        <id>22</id>
+        <nombre>Ingenieria y Sociedad</nombre>
+        <habilita_cursada_a_cursar>31</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>32</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>31</habilita_aprobada_a_aprobar>
+<!--         <habilita_cursar>31</habilita_cursar> -->
+<!--         <habilita_aprobar>0</habilita_aprobar> -->
+        <por_cursar>0</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+</materias>

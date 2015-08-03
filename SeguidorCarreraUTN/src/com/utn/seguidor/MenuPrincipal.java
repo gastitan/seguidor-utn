@@ -1,9 +1,7 @@
 package com.utn.seguidor;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,6 +68,20 @@ public class MenuPrincipal extends Activity {
 	private List<MateriaVO> getMateriasBase()
 	{
 		List<MateriaVO> materias = new ArrayList<MateriaVO>();
+		
+		//Obtengo las materias 
+		materias.addAll(getMateriasPrincipales());
+		
+		//Obtengo las electivas del XML
+		//materias.addAll(getMateriasElectivas());
+		
+	    return materias;
+        
+	}
+/*
+	private List<MateriaVO> getMateriasPrincipalesOld()
+	{
+		List<MateriaVO> materias = new ArrayList<MateriaVO>();
 		InputStream inputStream = getResources().openRawResource(R.raw.materias_base);
 		InputStreamReader inputreader = new InputStreamReader(inputStream);
         BufferedReader bufferedreader = new BufferedReader(inputreader);
@@ -78,6 +90,7 @@ public class MenuPrincipal extends Activity {
             
         try 
         {
+        	//Obtengo las materias del txt
             while (( line = bufferedreader.readLine()) != null) 
             {
                 list.add(line);                
@@ -88,12 +101,80 @@ public class MenuPrincipal extends Activity {
 	    		MateriaVO m = MateriaAdmin.crearMateria(values[x]);
 	    		materias.add(m);
 	    	}
-	        return materias;
-        } 
-        catch (Exception e) 
+        }catch(Exception e)
         {
         	return null;
         }
+        return materias;
 	}
+*/	
+	private List<MateriaVO> getMateriasPrincipales()
+	{
+		List<MateriaVO> materias = new ArrayList<MateriaVO>();
+		
+		//Materias principales de primer año
+		InputStream xmlPrin1 = getResources().openRawResource(R.raw.materias1);
+        List<MateriaVO> materias1 = MateriaAdmin.getMateriasPrincipales(xmlPrin1);
+        
+        //Materias principales de segundo año
+        InputStream xmlPrin2 = getResources().openRawResource(R.raw.materias2);
+        List<MateriaVO> materias2 = MateriaAdmin.getMateriasPrincipales(xmlPrin2);
+        
+        //Materias principales de tercer año
+        InputStream xmlPrin3 = getResources().openRawResource(R.raw.materias3);
+        List<MateriaVO> materias3 = MateriaAdmin.getMateriasPrincipales(xmlPrin3);
+        
+        //Materias electivas de tercer año
+        InputStream xmlElec3 = getResources().openRawResource(R.raw.electivas3);
+        List<MateriaVO> electivas3 = MateriaAdmin.getMateriasElectivas(xmlElec3);
+        
+        //Materias principales de cuarto año
+        InputStream xmlPrin4 = getResources().openRawResource(R.raw.materias4);
+        List<MateriaVO> materias4 = MateriaAdmin.getMateriasPrincipales(xmlPrin4);
+        
+        //Materias electivas de cuarto año
+        InputStream xmlElec4 = getResources().openRawResource(R.raw.electivas4);
+        List<MateriaVO> electivas4 = MateriaAdmin.getMateriasElectivas(xmlElec4);
+        
+        //Materias principales de quinto año
+        InputStream xmlPrin5 = getResources().openRawResource(R.raw.materias5);
+        List<MateriaVO> materias5 = MateriaAdmin.getMateriasPrincipales(xmlPrin5);
+        
+        //Materias electivas de quinto año
+        InputStream xmlElec5 = getResources().openRawResource(R.raw.electivas5);
+        List<MateriaVO> electivas5 = MateriaAdmin.getMateriasElectivas(xmlElec5);
+        
+        materias.add(MateriaAdmin.getTitulo("PRIMER AÑO"));
+        materias.addAll(materias1);
+        materias.add(MateriaAdmin.getTitulo("SEGUNDO AÑO"));
+        materias.addAll(materias2);
+        materias.add(MateriaAdmin.getTitulo("TERCER AÑO"));
+        materias.addAll(materias3);
+        materias.add(MateriaAdmin.getTitulo("ELECTIVAS TERCER AÑO"));
+        materias.addAll(electivas3);
+        materias.add(MateriaAdmin.getTitulo("CUARTO AÑO"));
+        materias.addAll(materias4);
+        materias.add(MateriaAdmin.getTitulo("ELECTIVAS CUARTO AÑO"));
+        materias.addAll(electivas4);
+        materias.add(MateriaAdmin.getTitulo("QUINTO AÑO"));
+        materias.addAll(materias5);
+        materias.add(MateriaAdmin.getTitulo("ELECTIVAS QUINTO AÑO"));
+        materias.addAll(electivas5);
+        
+        return materias;
+	}
+	
+//	private List<MateriaVO> getMateriasElectivas()
+//	{
+//		List<MateriaVO> materias = new ArrayList<MateriaVO>();
+//		InputStream principales1 = getResources().openRawResource(R.raw.electivas3);
+//        
+//        List<MateriaVO> materias1 = MateriaAdmin.getMateriasElectivas(principales1);
+//        
+//        materias.addAll(materias1);
+//        
+//        return materias;
+//	}
+	
 	
 }

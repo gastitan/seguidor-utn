@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<electivas>
+    <electiva>
+        <id>301</id>
+        <nombre>Metodologia de equipos de trabajo</nombre>
+    </electiva>
+    <electiva>
+        <id>302</id>
+        <nombre>Algoritmos complejos estructura de datos</nombre>
+    </electiva>
+    <electiva>
+        <id>303</id>
+        <nombre>Ingenieria de requisitos</nombre>
+    </electiva>
+        <electiva>
+        <id>304</id>
+        <nombre>Creatividad</nombre>
+    </electiva>
+    <electiva>
+        <id>305</id>
+        <nombre>Gestion de recursos humanos</nombre>
+    </electiva>
+    <electiva>
+        <id>306</id>
+        <nombre>Innovacion tecnologica</nombre>
+    </electiva>
+        <electiva>
+        <id>307</id>
+        <nombre>Investigacion tecnologica</nombre>
+    </electiva>
+    <electiva>
+        <id>308</id>
+        <nombre>Seguridad informatica</nombre>
+    </electiva>
+    <electiva>
+        <id>309</id>
+        <nombre>Tecnicas avanzadas de programacion</nombre>
+    </electiva>
+    <electiva>
+        <id>310</id>
+        <nombre>Tecnicas de graficos por computadora</nombre>
+    </electiva>
+    <electiva>
+        <id>311</id>
+        <nombre>Comunicaciones y redes</nombre>
+    </electiva>
+</electivas>

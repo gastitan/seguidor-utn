@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<electivas>
+    <electiva>
+        <id>401</id>
+        <nombre>Tecnologias avanzadas en la construccion de software</nombre>
+    </electiva>
+    <electiva>
+        <id>402</id>
+        <nombre>Sistema de informacion geografica</nombre>
+    </electiva>
+    <electiva>
+        <id>403</id>
+        <nombre>Seguridad en redes</nombre>
+    </electiva>
+        <electiva>
+        <id>404</id>
+        <nombre>Emprendimientos digitales</nombre>
+    </electiva>
+    <electiva>
+        <id>405</id>
+        <nombre>Informatica industrial</nombre>
+    </electiva>
+    <electiva>
+        <id>406</id>
+        <nombre>Gerenciamiento de proyectos informaticos</nombre>
+    </electiva>
+        <electiva>
+        <id>407</id>
+        <nombre>Criptografia</nombre>
+    </electiva>
+    <electiva>
+        <id>408</id>
+        <nombre>Administracion de personal</nombre>
+    </electiva>
+</electivas>

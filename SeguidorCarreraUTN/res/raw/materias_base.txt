@@ -1,4 +1,4 @@
-PRIMER Aﾃ前
+PRIMER AﾑO
 1-Analisis Matematico I-10,17,11-20,19-0-0
 2-Algebra y Geometria Analitica-10,17-20,19-0-0
 3-Matematica Discreta-13,14,15-18,21,25-0-0
@@ -7,7 +7,7 @@ PRIMER Aﾃ前
 6-Arquitectura de Computadoras-15,19-25,26-0-0
 9-Quimica-30-0-0-0
 22-Ingenieria y Sociedad-31-0-0-0
-SEGUNDO Aﾃ前
+SEGUNDO AﾑO
 7-Fisica I-11-19-0-0
 10-Analisis Matematico II-20-25,27,28,30-1,2-0
 16-Sistemas de Representacion-0-32-0-0
@@ -16,7 +16,7 @@ SEGUNDO Aﾃ前
 14-Paradigmas de programacion-18,21-26,29-3,5-0
 8-Ingles 1-0-24,26-0-0
 17-Probabilidad y Estadistica-27,28,29-32,33,34,35-1,2-0
-TERCER Aﾃ前
+TERCER AﾑO
 15-Sistemas Operativos-25,26-32,34,35-3,5,6-0
 18-Diseﾃｱo de Sistemas-26,29-32,33,34,35-12,14-3,4,5
 11-Fﾃｭsica II-19-25,30-1,7-0
@@ -25,7 +25,7 @@ TERCER Aﾃ前
 23-Economﾃｭa-26-32,34,35-12-4,5
 24-Inglﾃｩs II-0-32-0-8
 31-Legislaciﾃｳn-32-0-12,22-4,5
-CUARTO Aﾃ前
+CUARTO AﾑO
 25-Redes de Informaciﾃｳn-32-0-15,19-3,5,6,10,11
 26-Administraciﾃｳn de Recursos-32,34,35-0-15,18,23-6,8,12,14
 27-Investigaciﾃｳn Operativa-33,34,35-0-17,20-10
@@ -33,7 +33,7 @@ CUARTO Aﾃ前
 29-Ingenierﾃｭa en Software-32-0-17,18,21-12,13,14
 30-Teorﾃｭa de Control-0-0-9,20-10,11
 19-Comunicaciones-0-32-6,10,11-1,2,7
-QUINTO Aﾃ前
+QUINTO AﾑO
 32-Proyecto Final-0-0-25,26,29,31-15,16,17,18,19,21,22,23,24
 33-Inteligencia Artificial-0-0-27,28-17,18,20
 34-Administraciﾃｳn Gerencial-0-0-26,27-15,17,18,20,23

@@ -10,7 +10,7 @@ public class Constantes
 	public static final String CURSADA = "CURSADA";
 	public static final String APROBADA = "APROBADA";
 	
-	public static final String ANIO = "AÃ‘O";
+	public static final String ANIO = "AÑO";
 	
 	@SuppressWarnings("serial")
 	public static final List<Integer> materiasHabilitadas = new ArrayList<Integer>(){{

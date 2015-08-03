@@ -1,0 +1,66 @@
+<materias>
+    <materia>
+        <id>15</id>
+        <nombre>Sistemas Operativos</nombre>
+        <habilita_cursar>25,26</habilita_cursar>
+        <habilita_aprobar>32,34,35</habilita_aprobar>
+        <por_cursar>3,5,6</por_cursar>
+        <por_aprobar>0</por_aprobar>
+    </materia>
+    <materia>
+        <id>18</id>
+        <nombre>Diseño de Sistemas</nombre>
+        <habilita_cursar>26,29</habilita_cursar>
+        <habilita_aprobar>32,33,34,35</habilita_aprobar>
+        <por_cursar>12,14</por_cursar>
+        <por_aprobar>3,4,5</por_aprobar>
+    </materia>
+    <materia>
+        <id>11</id>
+        <nombre>Física II</nombre>
+        <habilita_cursar>19</habilita_cursar>
+        <habilita_aprobar>25,30</habilita_aprobar>
+        <por_cursar>1,7</por_cursar>
+        <por_aprobar>1,7</por_aprobar>
+    </materia>
+    <materia>
+        <id>20</id>
+        <nombre>Matemática Superior</nombre>
+        <habilita_cursar>27,28,30</habilita_cursar>
+        <habilita_aprobar>33,34,35</habilita_aprobar>
+        <por_cursar>10</por_cursar>
+        <por_aprobar>1,2</por_aprobar>
+    </materia>
+    <materia>
+        <id>21</id>
+        <nombre>Gestión de Datos</nombre>
+        <habilita_cursar>29</habilita_cursar>
+        <habilita_aprobar>32</habilita_aprobar>
+        <por_cursar>12,13,14</por_cursar>
+        <por_aprobar>3,4,5</por_aprobar>
+    </materia>
+    <materia>
+        <id>23</id>
+        <nombre>Economía</nombre>
+        <habilita_cursar>26</habilita_cursar>
+        <habilita_aprobar>32,34,35</habilita_aprobar>
+        <por_cursar>12</por_cursar>
+        <por_aprobar>4,5</por_aprobar>
+    </materia>
+    <materia>
+        <id>24</id>0-32-0-8
+        <nombre>Inglés II</nombre>
+        <habilita_cursar>0</habilita_cursar>
+        <habilita_aprobar>32</habilita_aprobar>
+        <por_cursar>0</por_cursar>
+        <por_aprobar>8</por_aprobar>
+    </materia>
+    <materia>
+        <id>31</id>
+        <nombre>Legislación</nombre>
+        <habilita_cursar>32</habilita_cursar>
+        <habilita_aprobar>0</habilita_aprobar>
+        <por_cursar>12,22</por_cursar>
+        <por_aprobar>4,5</por_aprobar>
+    </materia>
+</materias>

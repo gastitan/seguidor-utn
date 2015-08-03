@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<electivas>
+    <electiva>
+        <id>501</id>
+        <nombre>Infraestructura y virtualizacion</nombre>
+    </electiva>
+    <electiva>
+        <id>502</id>
+        <nombre>Inteligencia artificial avanzada</nombre>
+    </electiva>
+    <electiva>
+        <id>503</id>
+        <nombre>Tecnologías Avanzadas en Redes</nombre>
+    </electiva>
+        <electiva>
+        <id>504</id>
+        <nombre>Comunicacion y comercializacion de servicios de IT</nombre>
+    </electiva>
+    <electiva>
+        <id>505</id>
+        <nombre>Bioinformatica</nombre>
+    </electiva>
+    <electiva>
+        <id>506</id>
+        <nombre>Desarrollo emprendedor</nombre>
+    </electiva>
+        <electiva>
+        <id>507</id>
+        <nombre>Implementación de base de datos NoSQL</nombre>
+    </electiva>
+    <electiva>
+        <id>508</id>
+        <nombre>Inteligencia de negocios</nombre>
+    </electiva>
+    <electiva>
+        <id>509</id>
+        <nombre>Tecnología y discapacidad</nombre>
+    </electiva>
+    <electiva>
+        <id>510</id>
+        <nombre>Marketing en internet y nueva economia</nombre>
+    </electiva>
+    <electiva>
+        <id>511</id>
+        <nombre>Sistemas avanzados de bases de datos</nombre>
+    </electiva>
+        <electiva>
+        <id>512</id>
+        <nombre>Sistemas de costos y presupuestos</nombre>
+    </electiva>
+    <electiva>
+        <id>513</id>
+        <nombre>Pericias informaticas</nombre>
+    </electiva>
+    <electiva>
+        <id>514</id>
+        <nombre>Financiamiento de proyectos de internet</nombre>
+    </electiva>
+        <electiva>
+        <id>515</id>
+        <nombre>Gestion del cambio organizacional</nombre>
+    </electiva>
+    <electiva>
+        <id>516</id>
+        <nombre>Procesamiento de señales</nombre>
+    </electiva>
+    <electiva>
+        <id>517</id>
+        <nombre>Arquitectura de proyectos en TI</nombre>
+    </electiva>
+    <electiva>
+        <id>518</id>
+        <nombre>Modelos de negocios en internet</nombre>
+    </electiva>
+    <electiva>
+        <id>519</id>
+        <nombre>Aspectos legales de las nuevas TI</nombre>
+    </electiva>
+        <electiva>
+        <id>520</id>
+        <nombre>Modelos organizacionales</nombre>
+    </electiva>
+    <electiva>
+        <id>521</id>
+        <nombre>Sistemas mainframe</nombre>
+    </electiva>
+    <electiva>
+        <id>522</id>
+        <nombre>Tecnologias para la explotacion de informacion</nombre>
+    </electiva>
+        <electiva>
+        <id>523</id>
+        <nombre>Sistemas integrados de gestion</nombre>
+    </electiva>
+    <electiva>
+        <id>524</id>
+        <nombre>Marcos de referencia en TI</nombre>
+    </electiva>
+</electivas>
