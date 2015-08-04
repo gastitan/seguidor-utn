@@ -2,32 +2,40 @@
     <materia>
         <id>15</id>
         <nombre>Sistemas Operativos</nombre>
-        <habilita_cursar>25,26</habilita_cursar>
-        <habilita_aprobar>32,34,35</habilita_aprobar>
+        <habilita_cursada_a_cursar>26</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>32,34,35,501,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>26</habilita_aprobada_a_aprobar>
         <por_cursar>3,5,6</por_cursar>
         <por_aprobar>0</por_aprobar>
     </materia>
     <materia>
         <id>18</id>
         <nombre>Diseño de Sistemas</nombre>
-        <habilita_cursar>26,29</habilita_cursar>
-        <habilita_aprobar>32,33,34,35</habilita_aprobar>
+        <habilita_cursada_a_cursar>26</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>32,34,35,501,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>26,29,401,402,403,406,407,408</habilita_aprobada_a_aprobar>
         <por_cursar>12,14</por_cursar>
         <por_aprobar>3,4,5</por_aprobar>
     </materia>
     <materia>
         <id>11</id>
         <nombre>Física II</nombre>
-        <habilita_cursar>19</habilita_cursar>
-        <habilita_aprobar>25,30</habilita_aprobar>
+        <habilita_cursada_a_cursar>19</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>25,30</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>19</habilita_aprobada_a_aprobar>
         <por_cursar>1,7</por_cursar>
         <por_aprobar>1,7</por_aprobar>
     </materia>
     <materia>
         <id>20</id>
         <nombre>Matemática Superior</nombre>
-        <habilita_cursar>27,28,30</habilita_cursar>
-        <habilita_aprobar>33,34,35</habilita_aprobar>
+        <habilita_cursada_a_cursar>27,28,30</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>33,34,35</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>27,28,30</habilita_aprobada_a_aprobar>
         <por_cursar>10</por_cursar>
         <por_aprobar>1,2</por_aprobar>
     </materia>
