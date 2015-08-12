@@ -42,8 +42,10 @@
     <materia>
         <id>21</id>
         <nombre>Gestión de Datos</nombre>
-        <habilita_cursar>29</habilita_cursar>
-        <habilita_aprobar>32</habilita_aprobar>
+        <habilita_cursada_a_cursar>29,401,402,403,404,405,406,407,408</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>32,404,405,501,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>29,401,403,405,406,407,408</habilita_aprobada_a_aprobar>
         <por_cursar>12,13,14</por_cursar>
         <por_aprobar>3,4,5</por_aprobar>
     </materia>
