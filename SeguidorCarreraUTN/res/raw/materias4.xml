@@ -2,56 +2,70 @@
     <materia>
         <id>25</id>
         <nombre>Redes de Información</nombre>
-        <habilita_cursar>32</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar></habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar></habilita_aprobada_a_aprobar>
         <por_cursar>15,19</por_cursar>
         <por_aprobar>3,5,6,10,11</por_aprobar>
     </materia>
     <materia>
         <id>26</id>
         <nombre>Administración de Recursos</nombre>
-        <habilita_cursar>32,34,35</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar></habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar></habilita_aprobada_a_aprobar>
         <por_cursar>15,18,23</por_cursar>
         <por_aprobar>6,8,12,14</por_aprobar>
     </materia>
     <materia>
         <id>27</id>
         <nombre>Investigación Operativa</nombre>
-        <habilita_cursar>33,34,35</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar>33,34,35</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar>33</habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>502</habilita_aprobada_a_aprobar>
         <por_cursar>17,20</por_cursar>
         <por_aprobar>17,20</por_aprobar>
     </materia>
     <materia>
         <id>28</id>
         <nombre>Simulación</nombre>
-        <habilita_cursar>33,35</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar></habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar></habilita_aprobada_a_aprobar>
         <por_cursar>17,20</por_cursar>
         <por_aprobar>10</por_aprobar>
     </materia>
     <materia>
         <id>29</id>
         <nombre>Ingeniería en Software</nombre>
-        <habilita_cursar>32</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar>32,502</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>502</habilita_aprobada_a_aprobar>
         <por_cursar>17,18,21</por_cursar>
         <por_aprobar>12,13,14</por_aprobar>
     </materia>
     <materia>
         <id>30</id>
         <nombre>Teoría de Control</nombre>
-        <habilita_cursar>0</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar></habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar></habilita_aprobada_a_aprobar>
         <por_cursar>9,20</por_cursar>
         <por_aprobar>10,11</por_aprobar>
     </materia>
     <materia>
         <id>19</id>
         <nombre>Comunicaciones</nombre>
-        <habilita_cursar>0</habilita_cursar>
-        <habilita_aprobar>32</habilita_aprobar>
+        <habilita_cursada_a_cursar>25</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar>32,503</habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>25</habilita_aprobada_a_aprobar>
         <por_cursar>6,10,11</por_cursar>
         <por_aprobar>1,2,7</por_aprobar>
     </materia>

@@ -2,32 +2,40 @@
     <materia>
         <id>32</id>
         <nombre>Proyecto Final</nombre>
-        <habilita_cursar>0</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar></habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar></habilita_aprobada_a_aprobar>
         <por_cursar>25,26,29,31</por_cursar>
         <por_aprobar>15,16,17,18,19,21,22,23,24</por_aprobar>
     </materia>
     <materia>
         <id>33</id>
         <nombre>Inteligencia Artificial</nombre>
-        <habilita_cursar>0</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar>502</habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar>502</habilita_aprobada_a_aprobar>
         <por_cursar>27,28</por_cursar>
         <por_aprobar>17,18,20</por_aprobar>
     </materia>
     <materia>
         <id>34</id>
         <nombre>Administración Gerencial</nombre>
-        <habilita_cursar>0</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar></habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar></habilita_aprobada_a_aprobar>
         <por_cursar>26,27</por_cursar>
         <por_aprobar>15,17,18,20,23</por_aprobar>
     </materia>
     <materia>
         <id>35</id>
         <nombre>Sistemas de Gestión</nombre>
-        <habilita_cursar>0</habilita_cursar>
-        <habilita_aprobar>0</habilita_aprobar>
+        <habilita_cursada_a_cursar></habilita_cursada_a_cursar>
+        <habilita_cursada_a_aprobar></habilita_cursada_a_aprobar>
+        <habilita_aprobada_a_cursar></habilita_aprobada_a_cursar>
+        <habilita_aprobada_a_aprobar></habilita_aprobada_a_aprobar>
         <por_cursar>26,27,28</por_cursar>
         <por_aprobar>015,17,18,20,23</por_aprobar>
     </materia>
